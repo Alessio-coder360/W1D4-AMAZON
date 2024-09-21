@@ -1,0 +1,772 @@
+                    /*     -------------------------------HEADER-------------------------
+                */
+
+
+                    * {
+                        margin: 0;
+                        font-family: Arial, Helvetica, sans-serif;
+
+                    }
+
+                    body {
+                        background-color: rgb(230 218 218);
+                    }
+
+
+
+                    header img {
+                        width: 100px;
+                        padding: 5px;
+                        border-radius: 20px;
+                        object-fit: cover;
+
+
+                        margin-left: 15px;
+
+                    }
+
+                    #logo-Header {
+                        background-color: rgb(1, 1, 73);
+                        padding: 7px;
+
+
+                    }
+
+                    .Menu {
+                        background-color: rgba(4, 4, 139, 0.887);
+                        display: flex;
+                        padding-left: 20px;
+
+
+                    }
+
+
+                    .Menu a {
+                        padding: 10px;
+                        font-size: 15px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-decoration: none;
+                        color: white;
+                    }
+
+
+
+
+
+
+
+
+                    /* ---------------------------------------------SEZIONE 1 MAIN -------------------------------- */
+
+                    .blocco1 {
+                        display: flex;
+                        gap: 40px;
+                        flex-direction: column;
+                        margin-inline: auto;
+                    }
+
+
+                    nav li {
+                        display: flex;
+                        color: rgb(231, 214, 214);
+                        font-family: Arial, Helvetica, sans-serif;
+                        align-items: normal;
+                    }
+
+
+
+                    .section-1 {
+                        display: flex;
+                        background-color: rgb(227 104 8);
+                        justify-content: center;
+
+
+
+                    }
+
+                    .section-1 p {
+                        font-size: 15px;
+                        color: rgb(244, 238, 238);
+                        padding: 10px;
+
+
+
+                    }
+
+                    .Bande {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 40px;
+                        width: 95%;
+                        margin: auto;
+                    }
+
+                    .section-2 p {
+                        text-align: center;
+                        font-size: 40px;
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                    }
+
+                    .section-2 h3 {
+
+                        font-size: 17px;
+                        font-weight: 600;
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-top: 25px;
+
+                    }
+
+
+
+
+                    .section-2 {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        padding: 50px;
+                        background-image: url(assets/bg-image.png);
+
+                    }
+
+
+                    /* ---------------------------------------------BLOCCO 1 -------------------------------- */
+
+                    .Blocco-img {
+                        display: flex;
+                        margin-top: 30px;
+                    }
+
+                    .Titolo {
+                        display: flex;
+                        font-family: Arial, Helvetica, sans-serif;
+                        width: 95%;
+                        margin: auto;
+                        gap: 20px;
+                        font-size: 15px;
+                        display: flex;
+                        padding: 15px;
+                    }
+
+
+                    .Align {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                    }
+
+                    .Align h2 {
+                        font-weight: lighter;
+                    }
+
+                    .Align a {
+                        text-decoration: none;
+                        font-size: 17px;
+                        color: rgb(8, 8, 145);
+                        font-weight: 700;
+                    }
+
+
+
+                    .Blocco-foto {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        width: 95%;
+                        margin: auto;
+                        margin-top: 35px;
+                        align-items: center;
+                    }
+
+                    .Immagini {
+                        display: flex;
+                        gap: 30px;
+                        justify-content: center;
+
+                        margin: auto;
+                        padding: 20px;
+                    }
+
+
+                    .Tablet img {
+                        width: 300px;
+                        height: 380px;
+                        border-radius: 20px;
+                        object-fit: cover;
+                        box-shadow: black 10px 20 px;
+
+
+                    }
+
+                    .Pc img {
+                        width: 300px;
+                        height: 380px;
+                        border-radius: 20px;
+                        object-fit: cover;
+                    }
+
+                    .orologi img {
+                        width: 300px;
+                        height: 380px;
+                        border-radius: 20px;
+                        object-fit: cover;
+
+
+                    }
+
+                    .gatto img {
+                        width: 300px;
+                        height: 380px;
+                        border-radius: 20px;
+                        object-fit: cover;
+                    }
+
+
+                    .Ombra {
+                        box-shadow: 
+                        #83b2b38f 14px 11px 16px 0px;
+}
+
+
+
+
+
+                    /* ---------------------------------------------BLOCCO 2 IMMAGINI -------------------------------- */
+
+
+                    .Accessories h2 {
+                        font-family: Helvetica, sans-serif;
+                        font-size: 18px;
+
+
+
+                    }
+
+
+
+                    .riga_foto {
+                        display: flex;
+                        margin: auto;
+                        justify-content: center;
+                        width: 95%;
+                        margin-top: 20px;
+                        gap: 10px;
+                    }
+
+
+
+
+
+                    /* -------------------RIGA-FOTO 1 -------------------------------- */
+
+                    .Blocco-foto1 {
+
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        width: 370px;
+                        height: 550px;
+                        overflow: hidden;
+                        padding: 20px;
+                        gap: 45px;
+
+                    }
+
+
+
+
+
+                    .Cuffie img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+                    }
+
+
+
+
+
+
+                    .Tastiera img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+                    }
+
+
+
+
+
+                    .Mouse img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+                    }
+
+
+
+                    .Sedia img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+                    }
+
+
+
+
+
+
+
+                    .Block1 {
+                        display: flex;
+                        gap: 10px;
+                        justify-content: center;
+                    
+                    }
+
+
+
+                    .Block1_1 {
+                        display: flex;
+                        gap: 10px;
+                        justify-content: center;
+                        margin-top: 4px;
+                    }
+
+
+
+
+
+                    .subtitle p {
+                        font-size: 12px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+
+                    .Link {
+                        display: flex;
+                    }
+
+
+                    .Link a {
+
+                        text-decoration: none;
+                        font-size: 12px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+
+
+                    /* -------------------RIGA-FOTO 2 -------------------------------- */
+
+
+
+                    .Blocco-foto2 {
+
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        width: 370px;
+                        height: 550px;
+                        gap: 45px;
+                        ;
+                        overflow: hidden;
+                        padding: 20px;
+
+                    }
+
+
+
+                    .Block2 {
+                        display: flex;
+                        gap: 10px;
+                        justify-content: center;
+                    }
+
+
+
+                    .Block2_2 {
+                        display: flex;
+                        gap: 10px;
+                        justify-content: center;
+                        margin-top: 4px;
+
+                    }
+
+
+                    .Felpe img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+                    }
+
+                    .Felpe {
+                        position: relative;
+                    }
+
+                    .LogoNew {
+                        position: absolute;
+                        transform: translate(10px, -22px);
+                        border: 0px;
+                        right: 0px;
+                        width: 25%;
+
+                    }
+
+
+                    .Pants img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+
+                    }
+
+
+                    .Cardigan img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+
+                    }
+
+                    .T-shirt img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+                    }
+
+
+                    .T-shirt {
+                        position: relative;
+                    }
+
+                    .LogoNew {
+                        position: absolute;
+                        transform: translate(10px, -22px);
+                        border: 0px;
+                        right: 0px;
+
+                        width: 25%;
+
+                    }
+
+
+
+
+
+
+
+
+                    /* -------------------RIGA FOTO 3 --------------------- */
+
+
+                    .Blocco-foto3 {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        width: 370px;
+                        height: 550px;
+                        gap: 45px;
+                        overflow: hidden;
+                        padding: 20px;
+                    }
+
+
+                    .Block3 {
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                    }
+
+
+
+                    .Block3_3 {
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                    }
+
+
+                    .Phone img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+                    }
+
+
+
+                    .Clothes img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+                    }
+
+                    .Clothes {
+                        position: relative;
+                    }
+
+                    .LogoNew {
+                        position: absolute;
+                        transform: translate(10px, -22px);
+                        border: 0px;
+                        right: 0px;
+                        width: 25%;
+
+                    }
+
+
+                    .Toys img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+
+                    }
+
+                    .Beuty img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+                    }
+
+
+
+
+
+
+
+
+                    /* --------RIGA FOTO 4-----------------------------------------
+                */
+
+
+
+                    .Blocco-foto4 {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        width: 370px;
+                        height: 550px;
+                        gap: 45px;
+                        overflow: hidden;
+                        padding: 20px;
+                    }
+
+
+                    .Block4 {
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                    }
+
+
+
+                    .Block4_4 {
+                        display: flex;
+                        gap: 5px;
+                        justify-content: center;
+                    }
+
+
+                    .Children img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+                    }
+
+
+
+                    .Sound img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+                    }
+
+
+                    .Home img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+
+                    }
+
+                    .Fashion img {
+                        width: 100%;
+                        aspect-ratio: 1/1;
+                        object-fit: cover;
+                        display: flex;
+
+
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* 
+                        ----------------------------BLOCCO FOTO 5----------------------------------- */
+
+                    .Blocco-foto5 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                    }
+
+
+
+                    .Blocco-foto5 img {
+                        width: 95%;
+                        display: flex;
+                        flex-direction: column;
+                        margin: auto;
+                        margin-top: 30px;
+                    }
+
+
+
+
+
+                    .Menu_games {
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        align-items: center;
+                    }
+
+                    .Menu_games a {
+                        font-size: 13px;
+                        color: rgb(8, 8, 145);
+                        font-weight: 700;
+                        text-decoration: none;
+                    }
+
+                    .Menu_games h2 {
+                        font-weight: lighter;
+                        font-size: 17px;
+
+                    }
+
+                    /* 
+                        ---------------BLOCCO FOTO 6------------------------------- */
+
+                    .Blocco-foto6 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                    }
+
+
+                    .Blocco-foto6 img {
+                        width: 95%;
+                        display: flex;
+                        margin: auto;
+                        margin-top: 30px;
+
+                    }
+
+                    .Menu_sound {
+                        display: flex;
+                        justify-content: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        gap: 20px;
+                        align-items: center;
+                    }
+
+                    .Menu_sound h2 {
+                        font-weight: lighter;
+                        font-size: 17px;
+
+                    }
+
+                    .Menu_sound a {
+                        text-decoration: none;
+                        font-size: 13px;
+                        color: rgb(8, 8, 145);
+                        font-weight: 700;
+                    }
+
+
+
+                    /*  ---------------------------------PARTE FINALE-------------------- */
+
+
+
+                    .Footer {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+
+                    .Finish {
+                        background-color: rgba(4, 4, 139, 0.887);
+                        display: flex;
+                        justify-content: center;
+                        padding: 15px;
+                        margin-top: 10px;
+
+                    }
+
+                    .Finish a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    .logo-Final img {
+                        width: 170px;
+                        object-fit: cover;
+
+                    }
+
+                    .logo-Final {
+                        background-color:  rgb(1, 1, 73);
+                        ;
+                        display: flex;
+                        justify-content: center;
+                        padding: 60px;
+                    }
